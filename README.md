@@ -13,12 +13,12 @@ To use the script just run the script as sudo and wait. That's it.
 This is how it works:
 
 - It starts by adding, in case they dont exist, the needed repositories to your /etc/apt/source.list file
-- It thens update your apt-get 
+- It then updates your apt-get 
 - Download and installs pgtune (apt-get install pgtune)
 - Gets your postgresql.conf file path
 - Does a backup of said file
 - Runs pgtune, outputing your new postgresql.conf
-- Restarts your PosgreSQL database
+- Restarts your PostgreSQL database
 
 THINGS YOU SHOULD KNOW
 ----------------------
