@@ -20,6 +20,13 @@ This is how it works:
 - Runs pgtune, outputing your new postgresql.conf
 - Restarts your PostgreSQL database
 
+ADDITIONAL INFO
+---------------
+
+- If you want to run this from a usb pendrive, remember to first mount your pen. You can do this by entering this line in the terminal, as super user:  mount -t auto /dev/sdb1 /mnt && ls /mnt 
+- Run this script as super user: sh pgtunescript
+
+
 THINGS YOU SHOULD KNOW
 ----------------------
 
