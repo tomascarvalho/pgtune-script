@@ -40,4 +40,4 @@ THINGS YOU SHOULD KNOW
 CONTACT
 -------
 
-If you want to contact me send me a mail to tmdcc(at)student.dei.uc.pt in English or Portuguese.
+If you want to contact me send me a mail to tomcarvalhoc12(at)gmail.com in English or Portuguese.
