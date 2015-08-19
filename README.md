@@ -4,7 +4,7 @@
 GENERAL INFORMATION
 -------------------
 
-This is a bash script for Debian/Ubuntu that I made with the objective of automatically installing and running pgtune, in order to update your PostgreSQL data base with the pgtune recommended settings. In the end this script will restart your PostgreSQL data base.
+This is a bash script for Debian/Ubuntu that I made with the objective of automatically installing and running pgtune, in order to update your PostgreSQL database with the pgtune recommended settings. In the end this script will restart your PostgreSQL database.
 
 WHAT DOES IT DO AND HOW DOES IT WORK
 ------------------------------------
