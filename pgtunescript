@@ -10,11 +10,9 @@ echo "This Script will install and run PGTune"			# pgtune was created by Greg Sm
 echo "in order to tune your PostgreSQL DataBase"		# this script was put together by
 echo "When all is done, PostgreSQL will be restarted"		# Tomás Carvalho
 
-sleep 6
 clear
 
 echo "Adding needed repositories to /etc/apt/sources.list file"	# repositories needed to install pgtune
-sleep 2
 
 FILENAME="deb http://ftp.us.debian.org/debian/ wheezy main contrib non-free"
 
@@ -33,29 +31,23 @@ then
 	echo "deb http://ftp.us.debian.org/debian/ jessie main contrib non-free" >> /etc/apt/sources.list
 else
     	echo "Repositories already exist"
-	sleep 4
 fi
 
 
 echo
 echo "Running apt-get update do make sure everything needed is up to date"
-sleep 5
 apt-get update							# make sure everything is updated
 
 echo
 echo "-----Installing pgtune-----"				
-sleep 5
 apt-get install pgtune						# download and installs pgtune
-sleep 4
 clear
 
 echo "-----Running pgtune------"
 echo
-sleep 3
 
 echo "Getting location of postgresql"
 echo
-sleep 3
 
 INPUTFILE=$(find /etc/postgresql -name "postgresql.conf")	# gets the correct path to the
 INPUTFILE="$INPUTFILE"                        			# postgresql.conf file
